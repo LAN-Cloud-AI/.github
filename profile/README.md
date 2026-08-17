@@ -1,6 +1,6 @@
 # 兰芯云朵 · LAN Cloud AI
 
-[English](./README.en.md)
+[English](./README.en.md) · [官网](https://lancloudtech.com)
 
 **用 AI 重新定义汽车零售与售后怎么被经营。**
 
@@ -27,6 +27,9 @@
 | **[LeadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter)** | 客户并没有沉默，他只是没在你的 CRM 里说话 | 生产运行（Mercury） |
 | **VECT** | 客户说「没事」，系统却看见他正在离开 | 飞书验证 → SaaS 筹备 |
 | **[TACT](https://github.com/LAN-Cloud-AI/TACT)** | 车辆还没延误，系统已经看见延误会在哪里发生 | 飞书验证 → Phase 0 契约 / SaaS 启动 |
+| **[云朵记账](https://github.com/LAN-Cloud-AI/LAN_Cloud_Internal_Expense)** | 订阅资产与报销不该再靠一张会漂的表 | 生产运行 |
+| **兰芯裂变** | 商城成交之外，还要把转介绍做成可审计的动作 | 生产运行（小程序 / App） |
+| **[艺匠市集](https://github.com/LAN-Cloud-AI/artist-marketplace)** | 独立艺术家也能跑通一套完整成交链路 | [公开演示](https://alien.lancloudtech.com) |
 
 ---
 
@@ -52,11 +55,17 @@
 | [TACT](https://github.com/LAN-Cloud-AI/TACT) | 多门店工单编排 Phase 0 契约：Schema、RuleSet、权限、事件不变量与合成验收 | Public |
 | VECT（筹备中） | 客户生命周期精准管理：全功能档案、AI 质检、雷达预警、责任闭环 | — |
 
-### 内部运营
+### 公司对外面
 
 | 仓库 | 说明 | 可见性 |
 | --- | --- | --- |
-| [LAN_Cloud_Internal_Expense](https://github.com/LAN-Cloud-AI/LAN_Cloud_Internal_Expense) | 订阅资产与报销：Cloudflare Workers / D1 / R2 + Access；飞书 Base 只读导入 | Public |
+| [LAN_Web_Homepage](https://github.com/LAN-Cloud-AI/LAN_Web_Homepage) | 官网 lancloudtech.com（产品页 / 课程 / 企微名片） | Public |
+| [LAN_Wechat_Official_miniProgram](https://github.com/LAN-Cloud-AI/LAN_Wechat_Official_miniProgram) | 官方微信小程序 | Private |
+| [LAN_AI_Course_System](https://github.com/LAN-Cloud-AI/LAN_AI_Course_System) | AI 课程材料；公开课表见官网站内页 | Private |
+| [lanxin-Fission-Frontend](https://github.com/LAN-Cloud-AI/lanxin-Fission-Frontend) | 裂变商城用户端（uni-app：小程序 / App） | Private |
+| [lanxin-Fission-Backend](https://github.com/LAN-Cloud-AI/lanxin-Fission-Backend) | 裂变商城后端 | Private |
+| [artist-marketplace](https://github.com/LAN-Cloud-AI/artist-marketplace) | 艺匠市集全栈示例：短信登录 / 定制商品 / 管理端 | Public |
+| [LAN_Cloud_Internal_Expense](https://github.com/LAN-Cloud-AI/LAN_Cloud_Internal_Expense) | 订阅资产与报销：Cloudflare Workers / D1 / R2 + Access | Public |
 
 ---
 
@@ -72,8 +81,9 @@
 ## 协作与边界
 
 - 公开仓库欢迎阅读、讨论与 Issue；含业务密钥、生产数据或未授权连接的改动不会被接受。  
-- LeadsHunter 等生产链路为私有仓；训练场与契约仓优先作为对外理解入口。  
-- TACT / VECT 的 Phase 0 校验通过，不代表生产功能或生产连接已授权。
+- LeadsHunter、裂变商城等生产链路为私有仓；训练场、契约仓与官网优先作为对外理解入口。  
+- TACT / VECT 的 Phase 0 校验通过，不代表生产功能或生产连接已授权。  
+- 私有仓链接对协作者以外的访客会 404，这是预期行为。
 
 ---
 

@@ -1,6 +1,6 @@
 # LAN Cloud AI · 兰芯云朵
 
-[中文](./README.md)
+[中文](./README.md) · [Website](https://lancloudtech.com)
 
 **Redefining how automotive retail and aftersales are operated — with AI.**
 
@@ -27,6 +27,9 @@ Judge · AI Analyst / Agent  Trusted samples → counter-intuitive insights → 
 | **[LeadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter)** | Customers aren’t silent — they just aren’t speaking inside your CRM. | In production (Mercury) |
 | **VECT** | They say “it’s fine” — the system sees they’re leaving. | Feishu-proven → SaaS prep |
 | **[TACT](https://github.com/LAN-Cloud-AI/TACT)** | The car isn’t late yet — the system already sees where delay will form. | Feishu-proven → Phase 0 contracts / SaaS underway |
+| **[Cloud Ledger](https://github.com/LAN-Cloud-AI/LAN_Cloud_Internal_Expense)** | Subscriptions and reimbursements should not live on a drifting spreadsheet. | In production |
+| **Lanxin Fission** | Commerce plus auditable referral actions | In production (mini program / App) |
+| **[Artist Marketplace](https://github.com/LAN-Cloud-AI/artist-marketplace)** | A complete checkout path for independent artists | [Public demo](https://alien.lancloudtech.com) |
 
 ---
 
@@ -52,11 +55,17 @@ Born from Feishu multidimensional tables: VECT runs customer relationships; TACT
 | [TACT](https://github.com/LAN-Cloud-AI/TACT) | Multi-store work-order orchestration Phase 0 contracts: schemas, RuleSets, permissions, event invariants, synthetic acceptance | Public |
 | VECT (in prep) | Customer lifecycle precision management: full profiles, AI QC, radar alerts, accountable closed loops | — |
 
-### Internal Ops
+### Company Surface
 
 | Repo | Description | Visibility |
 | --- | --- | --- |
-| [LAN_Cloud_Internal_Expense](https://github.com/LAN-Cloud-AI/LAN_Cloud_Internal_Expense) | Subscriptions & reimbursements on Cloudflare Workers / D1 / R2 + Access; Feishu Base as read-only import | Public |
+| [LAN_Web_Homepage](https://github.com/LAN-Cloud-AI/LAN_Web_Homepage) | Official site lancloudtech.com (products / courses / WeCom card) | Public |
+| [LAN_Wechat_Official_miniProgram](https://github.com/LAN-Cloud-AI/LAN_Wechat_Official_miniProgram) | Official WeChat mini program | Private |
+| [LAN_AI_Course_System](https://github.com/LAN-Cloud-AI/LAN_AI_Course_System) | AI course materials; public syllabus lives on the site | Private |
+| [lanxin-Fission-Frontend](https://github.com/LAN-Cloud-AI/lanxin-Fission-Frontend) | Fission mall client (uni-app: mini program / App) | Private |
+| [lanxin-Fission-Backend](https://github.com/LAN-Cloud-AI/lanxin-Fission-Backend) | Fission mall backend | Private |
+| [artist-marketplace](https://github.com/LAN-Cloud-AI/artist-marketplace) | Artist shop example: SMS login / custom SKUs / admin | Public |
+| [LAN_Cloud_Internal_Expense](https://github.com/LAN-Cloud-AI/LAN_Cloud_Internal_Expense) | Subscriptions & reimbursements on Cloudflare Workers / D1 / R2 + Access | Public |
 
 ---
 
@@ -72,8 +81,9 @@ Born from Feishu multidimensional tables: VECT runs customer relationships; TACT
 ## Collaboration & Boundaries
 
 - Public repos welcome reading, discussion, and Issues. Changes involving business secrets, production data, or unauthorized connectivity will not be accepted.  
-- Production paths such as LeadsHunter are private; training grounds and contract kits are the preferred public entry points.  
-- Passing Phase 0 checks for TACT / VECT does not authorize production features or production connectivity.
+- Production paths such as LeadsHunter and Fission are private; training grounds, contract kits, and the website are the preferred public entry points.  
+- Passing Phase 0 checks for TACT / VECT does not authorize production features or production connectivity.  
+- Private repo links 404 for visitors who are not collaborators. That is expected.
 
 ---
 
