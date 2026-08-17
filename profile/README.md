@@ -24,7 +24,7 @@
 
 | 产品 | 一句话 | 状态 |
 | --- | --- | --- |
-| **[LeadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter)** | 客户并没有沉默，他只是没在你的 CRM 里说话 | 生产运行（Mercury） |
+| **[LeadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter)** | 客户并没有沉默，他只是没在你的 CRM 里说话 | Mercury 生产 · Venus 三池 + 销售 APP 测试中 |
 | **VECT** | 客户说「没事」，系统却看见他正在离开 | 飞书验证 → SaaS 筹备 |
 | **[TACT](https://github.com/LAN-Cloud-AI/TACT)** | 车辆还没延误，系统已经看见延误会在哪里发生 | 飞书验证 → Phase 0 契约 / SaaS 启动 |
 | **[云朵记账](https://github.com/LAN-Cloud-AI/LAN_Cloud_Internal_Expense)** | 订阅资产与报销不该再靠一张会漂的表 | 生产运行 |
@@ -37,14 +37,14 @@
 
 ### 公域线索 · LeadsHunter
 
-面向经销商销售团队的公域线索采集、AI 识别与交付系统：抖音 / 小红书等内容进池，Agent 判断意向，再按组织完成指派、飞书分发与短链交付。
+面向经销商销售团队的公域线索采集、AI 识别与交付系统：抖音 / 小红书等内容进池，Agent 判断意向。Mercury 按组织指派后走飞书 / 短链；Venus 改为三池结算，销售只在只读 APP 里接收投递与 10:00 摘要。
 
 | 仓库 | 说明 | 可见性 |
 | --- | --- | --- |
-| [leadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter) | 采集、任务引擎、多租户 RBAC、线索池与交付（Mercury 稳定版） | Private |
+| [leadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter) | Mercury 稳定生产；Venus 三池（归属 → 组织指派 → 账号分发）与移动 API | Private |
 | [LH_evaluation_agent](https://github.com/LAN-Cloud-AI/LH_evaluation_agent) | 评论 / 帖子双管线评分 Agent（意向、摘要、证据、跟进建议） | Private |
 | [LH_Training_Ground](https://github.com/LAN-Cloud-AI/LH_Training_Ground) | 场景（行业）+ 产品 SKU 的模型训练场；Skill 可同步回生产 | Public |
-| [leadsHunter_APP](https://github.com/LAN-Cloud-AI/leadsHunter_APP) | Expo 移动端：线索、推送与外链唤起 | Private |
+| [leadsHunter_APP](https://github.com/LAN-Cloud-AI/leadsHunter_APP) | Expo iOS/Android 销售端：首页 / 线索 / 通知、个推、10:00 摘要；Android beta 已发 | Private |
 
 ### 售后智能 · VECT × TACT
 

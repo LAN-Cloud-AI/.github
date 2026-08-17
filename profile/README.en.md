@@ -24,7 +24,7 @@ Judge · AI Analyst / Agent  Trusted samples → counter-intuitive insights → 
 
 | Product | One-liner | Status |
 | --- | --- | --- |
-| **[LeadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter)** | Customers aren’t silent — they just aren’t speaking inside your CRM. | In production (Mercury) |
+| **[LeadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter)** | Customers aren’t silent — they just aren’t speaking inside your CRM. | Mercury in production · Venus three-pool + sales app in field test |
 | **VECT** | They say “it’s fine” — the system sees they’re leaving. | Feishu-proven → SaaS prep |
 | **[TACT](https://github.com/LAN-Cloud-AI/TACT)** | The car isn’t late yet — the system already sees where delay will form. | Feishu-proven → Phase 0 contracts / SaaS underway |
 | **[Cloud Ledger](https://github.com/LAN-Cloud-AI/LAN_Cloud_Internal_Expense)** | Subscriptions and reimbursements should not live on a drifting spreadsheet. | In production |
@@ -37,14 +37,14 @@ Judge · AI Analyst / Agent  Trusted samples → counter-intuitive insights → 
 
 ### Public Leads · LeadsHunter
 
-Public-domain lead capture, AI scoring, and delivery for dealer sales teams: ingest Douyin / Xiaohongshu content, score intent with an Agent, then assign by organization and deliver via Feishu cards and short links.
+Public-domain lead capture, AI scoring, and delivery for dealer sales teams: ingest Douyin / Xiaohongshu content and score intent with an Agent. Mercury assigns by organization and delivers via Feishu / short links; Venus settles through three pools and puts sales on a read-only app (plus a 10:00 digest).
 
 | Repo | Description | Visibility |
 | --- | --- | --- |
-| [leadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter) | Ingestion, job engine, multi-tenant RBAC, lead pool & delivery (Mercury) | Private |
+| [leadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter) | Mercury production; Venus three-pool (ownership → org-assign → account-dispatch) and mobile API | Private |
 | [LH_evaluation_agent](https://github.com/LAN-Cloud-AI/LH_evaluation_agent) | Comment & post dual-pipeline scoring Agent | Private |
 | [LH_Training_Ground](https://github.com/LAN-Cloud-AI/LH_Training_Ground) | Scenario (industry) + product SKU training ground; skills sync to production | Public |
-| [leadsHunter_APP](https://github.com/LAN-Cloud-AI/leadsHunter_APP) | Expo mobile app: leads, push, and deep links | Private |
+| [leadsHunter_APP](https://github.com/LAN-Cloud-AI/leadsHunter_APP) | Expo iOS/Android sales client: home / leads / notifications, Getui, 10:00 digest; Android beta | Private |
 
 ### Aftersales Intelligence · VECT × TACT
 
